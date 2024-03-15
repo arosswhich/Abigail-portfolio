@@ -1,11 +1,40 @@
-body {
-font-family: 'Times New Roman', Times, serif;
-margin: 0;
-}
-
 header {
-padding: 40px;
-text-align: center;
-background-color: rgb(212, 129, 174);
-color: rgb(3, 1, 3);
-}
+    height: 120px;
+    width: auto;
+    text-align: center;
+    border-top:  5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    background-color: #ea76bf;
+  }
+  
+  section {
+    width: 75%;
+    margin: 20px auto;
+    border-top:  5px solid rgb(0, 0, 0);
+    border-bottom: 5px solid rgb(0, 0, 0);
+    background-color: #f2dbeb;
+  }
+  
+  h1 {
+    text-align: center;
+    line-height: 2cm;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  
+  .content {
+    padding: 40px;
+    width: 1000px;
+  }
+  
+img {
+    width: 3cm;
+    display: inline-flex;
+ }
